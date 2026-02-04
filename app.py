@@ -504,7 +504,6 @@ def update_status(message, level="info"):
         "warning": "orange",
         "error": "red"
     }
-    color = colors.get(level, "black")
     
     timestamp = datetime.now().strftime("%H:%M:%S")
     new_line = f"[{timestamp}] {message}"
